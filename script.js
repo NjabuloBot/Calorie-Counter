@@ -44,4 +44,8 @@ function getCaloriesFromInputs(list){
    return calories;
 }
 
-function calculateCalories(){e}
+function calculateCalories(e){
+   e.preventDefault();
+   isError = false;
+
+}
