@@ -75,3 +75,5 @@ function calculateCalories(e){
    <p>${exerciseCalories} Calories Burned</p>`;
    output.classList.remove('hide');
 }
+
+calorieCounter.addEventListener("submit",calculateCalories);
